@@ -1,40 +1,132 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
 
-		<title>reveal.js</title>
+    <title>reveal.js</title>
 
-		<link rel="stylesheet" href="dist/reset.css">
-		<link rel="stylesheet" href="dist/reveal.css">
-		<link rel="stylesheet" href="dist/theme/black.css">
+    <link rel="stylesheet" href="dist/reset.css" />
+    <link rel="stylesheet" href="dist/reveal.css" />
+    <link rel="stylesheet" href="dist/theme/league.css" />
 
-		<!-- Theme used for syntax highlighted code -->
-		<link rel="stylesheet" href="plugin/highlight/monokai.css">
-	</head>
-	<body>
-		<div class="reveal">
-			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
-			</div>
-		</div>
+    <!-- Theme used for syntax highlighted code -->
+    <link rel="stylesheet" href="plugin/highlight/monokai.css" />
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        <section data-markdown>
+          <textarea data-template>
+# Modern Technologies: TypeScript
 
-		<script src="dist/reveal.js"></script>
-		<script src="plugin/notes/notes.js"></script>
-		<script src="plugin/markdown/markdown.js"></script>
-		<script src="plugin/highlight/highlight.js"></script>
-		<script>
-			// More info about initialization & config:
-			// - https://revealjs.com/initialization/
-			// - https://revealjs.com/config/
-			Reveal.initialize({
-				hash: true,
+---
 
-				// Learn about plugins: https://revealjs.com/plugins/
-				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
-			});
-		</script>
-	</body>
+## Introduction to TypeScript
+
+TypeScript is a modern programming language developed by Microsoft.
+It adds static typing to JavaScript, making code more robust and maintainable.
+
+---
+
+## Features of TypeScript
+
+1. Static Typing
+2. Interfaces
+3. Classes and Inheritance
+4. Generics
+5. Advanced Type System
+
+---
+
+## Benefits of TypeScript
+
+- Early Error Detection
+- Enhanced Code Readability
+- Better IDE Support
+- Improved Code Maintainability
+
+---
+
+## TypeScript in Real-World Applications
+
+- Frontend Development with React and Angular
+- Backend Development with Node.js
+- Cross-Platform Mobile App Development with Ionic
+
+---
+
+## TypeScript and JavaScript Ecosystem
+
+TypeScript seamlessly integrates with existing JavaScript libraries and frameworks.
+
+---
+
+## Getting Started with TypeScript
+
+1. Install TypeScript Compiler (`npm install -g typescript`)
+2. Create a TypeScript File (e.g., `app.ts`)
+3. Compile TypeScript to JavaScript (`tsc app.ts`)
+4. Run JavaScript Code (`node app.js`)
+
+---
+
+## TypeScript Tooling
+
+Popular TypeScript Tools:
+- Visual Studio Code
+- TypeScript Playground
+- TypeScript Compiler (tsc)
+
+---
+
+## TypeScript Compiler Options
+
+- `--target`: Specify ECMAScript target version
+- `--strict`: Enable all strict type-checking options
+- `--watch`: Watch mode for automatic recompilation
+
+---
+
+## TypeScript and ES Modules
+
+TypeScript fully supports ES modules for modern module management.
+
+---
+
+## Conclusion
+
+TypeScript empowers developers to write more reliable and scalable code.
+It's a powerful tool for modern web development.
+
+---
+
+## Thank You!
+
+Any Questions?
+</textarea
+          >
+        </section>
+      </div>
+    </div>
+
+    <script src="dist/reveal.js"></script>
+    <script src="plugin/notes/notes.js"></script>
+    <script src="plugin/markdown/markdown.js"></script>
+    <script src="plugin/highlight/highlight.js"></script>
+    <script>
+      // More info about initialization & config:
+      // - https://revealjs.com/initialization/
+      // - https://revealjs.com/config/
+      Reveal.initialize({
+        hash: true,
+
+        // Learn about plugins: https://revealjs.com/plugins/
+        plugins: [RevealMarkdown, RevealHighlight, RevealNotes],
+      });
+    </script>
+  </body>
 </html>
